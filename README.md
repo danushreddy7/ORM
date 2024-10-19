@@ -42,7 +42,7 @@ class Book_DB(models.Model):
      totalpg=models.IntegerField();
 class Book_DBAdmin(admin.ModelAdmin):
      list_display=("serialno","bookname","publisher","Dop","totalpg");
-
+....
 
 
 ## OUTPUT:
